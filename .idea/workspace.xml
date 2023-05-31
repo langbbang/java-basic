@@ -1,49 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-basic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/SomeThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/CoffeeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/CoffeeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/DefaultCoffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/observer/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/observer/TopicSubscriber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/strategy/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/strategy/KakaoStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/strategy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/strategy/PaymentStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/strategy/ShinhanStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/strategy/ShoppingCart.java" afterDir="false" />
+    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="cs note ch1 - design pattern">
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,13 +60,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="csnote.chapter1.designpattern.singleton" />
       <recent name="csnote.chapter1.designpattern.factory" />
       <recent name="csnote.chapter1.designpattern.strategy" />
       <recent name="chapter4" />
       <recent name="csnote.chapter1.designpattern.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.csnote.chapter1.designpattern.observer.Main">
+  <component name="RunManager" selected="Application.csnote.chapter1.designpattern.singleton.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-basic" />
@@ -97,6 +81,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="csnote.chapter1.designpattern.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="csnote.chapter1.designpattern.singleton.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="csnote.chapter1.designpattern.singleton.Main" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="csnote.chapter1.designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.csnote.chapter1.designpattern.singleton.Main" />
         <item itemvalue="Application.csnote.chapter1.designpattern.observer.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -133,8 +131,30 @@
       <option name="presentableId" value="Default" />
       <updated>1685351634852</updated>
       <workItem from="1685351636475" duration="1389000" />
-      <workItem from="1685438979518" duration="5948000" />
+      <workItem from="1685438979518" duration="8949000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1685518471645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685518471645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="effective java ch4">
+      <created>1685518501666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685518501666</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cs note ch1 - design pattern">
+      <created>1685518525248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685518525248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,5 +170,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="effective java ch4" />
+    <MESSAGE value="cs note ch1 - design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="cs note ch1 - design pattern" />
   </component>
 </project>
