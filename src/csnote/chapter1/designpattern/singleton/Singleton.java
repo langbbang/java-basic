@@ -21,6 +21,18 @@ package csnote.chapter1.designpattern.singleton;
  * https://inpa.tistory.com/entry/JAVA-%E2%98%95-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8A%94-%EC%96%B8%EC%A0%9C-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%97%90-%EB%A1%9C%EB%94%A9-%EC%B4%88%EA%B8%B0%ED%99%94-%EB%90%98%EB%8A%94%EA%B0%80-%E2%9D%93
  */
 public class Singleton {
+    /**
+     * 내부 클래스도 결국은 클래스이기 때문에 클래스가 로드될때 딱 한번만 초기화되는 특성을 이용하여 static final 상수에 싱글톤 객체를 할당하는 기법이다.
+     * 클래스 로딩 및 초기화 과정이 스레드 세이프함을 이용하여 멀티 스레드 환경에서도 문제없이 싱글톤 인스턴스를 만들 수 있는 것이다.
+     */
+
+    /**
+     * 내부 클래스를 static으로 선언해줘야 하는 이유
+     *
+     * Inner 클래스가 바깥 클래스를 외부 참조 함으로써, 만일 외부 클래스는 필요가 없어지고 내부 클래스만 남아있을경우,
+     * 필요없어진 외부 클래스를 GC 대상으로 삼아 메모리에서 제거해야 되지만 외부 참조로 내부 클래스와 연결되어 있기 때문에
+     * 메모리에서 제거가 안되고 잔존하게 되고 이는 곧 메모리 누수로 프로그램이 터지게 된다.
+     */
     private static class SingletonInstanceHolder {
         private static final Singleton INSTANCE = new Singleton();
     }

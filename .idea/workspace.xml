@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="cs note ch1 - design pattern">
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton6.java" afterDir="false" />
+    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="cs note ch1 - design pattern - singleton">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685351634852</updated>
       <workItem from="1685351636475" duration="1389000" />
-      <workItem from="1685438979518" duration="8949000" />
+      <workItem from="1685438979518" duration="10216000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685518471645</created>
@@ -154,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685518525248</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cs note ch1 - design pattern - singleton">
+      <created>1685521465693</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685521465693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +176,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="effective java ch4" />
     <MESSAGE value="cs note ch1 - design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="cs note ch1 - design pattern" />
+    <MESSAGE value="cs note ch1 - design pattern - singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="cs note ch1 - design pattern - singleton" />
   </component>
 </project>
