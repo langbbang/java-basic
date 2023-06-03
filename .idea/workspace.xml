@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="cs note ch1 - design pattern - singleton">
+    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="cs note ch1 - design pattern - 코멘트추가">
+      <change afterPath="$PROJECT_DIR$/src/basic/HashCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/singleton/Singleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,20 @@
       <recent name="csnote.chapter1.designpattern.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.csnote.chapter1.designpattern.singleton.Main">
+  <component name="RunManager" selected="Application.HashCode">
+    <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basic.HashCode" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="java-basic" />
@@ -110,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashCode" />
         <item itemvalue="Application.csnote.chapter1.designpattern.singleton.Main" />
         <item itemvalue="Application.csnote.chapter1.designpattern.observer.Main" />
         <item itemvalue="Application.Main" />
@@ -125,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685351634852</updated>
       <workItem from="1685351636475" duration="1389000" />
-      <workItem from="1685438979518" duration="10216000" />
+      <workItem from="1685438979518" duration="21539000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685518471645</created>
@@ -155,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685521465693</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cs note ch1 - design pattern - 코멘트추가">
+      <created>1685524423418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685524423418</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +198,7 @@
     <MESSAGE value="effective java ch4" />
     <MESSAGE value="cs note ch1 - design pattern" />
     <MESSAGE value="cs note ch1 - design pattern - singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="cs note ch1 - design pattern - singleton" />
+    <MESSAGE value="cs note ch1 - design pattern - 코멘트추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="cs note ch1 - design pattern - 코멘트추가" />
   </component>
 </project>
