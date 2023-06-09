@@ -1,7 +1,5 @@
 package csnote.chapter1.designpattern.factory;
 
-import chapter4.SomeThing;
-
 public class Main {
     public static void main(String[] args) {
         Coffee latte = CoffeeFactory.getCoffee("Latte", 4000);

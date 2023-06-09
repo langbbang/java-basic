@@ -1,4 +1,4 @@
-package chapter4;
+package effectivejava.chapter4.sample1;
 
 
 /**
