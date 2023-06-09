@@ -7,6 +7,7 @@ import java.util.*;
 /**
  * **** 슈퍼 타입 토큰의 필요성에 대한 배경 ****
  *
+ * Map<Class<?>, Object> m = new HashMap<>();
  * m.put(List.class, Arrays.asList(1,2,3));
  * m.put(List.class, Arrays.asList("a", "b", "c")); // 덮어씌움
  *
