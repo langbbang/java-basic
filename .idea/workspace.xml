@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="hashcode와 equals">
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample2/after/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample2/after/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample2/after/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample2/before/Figure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter5/sample1/Varargs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter5/sample2/Favorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter5/sample2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter5/sample2/SuperTypeToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/effectivejava/chapter5/sample2/TypeReference.java" afterDir="false" />
+    <list default="true" id="4dde54d4-d82f-4a93-a9fe-64af06040e6d" name="Changes" comment="super type token">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample1/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/SomeThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample1/SomeThing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter4/Strings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/effectivejava/chapter4/sample1/Strings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/csnote/chapter1/designpattern/factory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/effectivejava/chapter5/sample2/SuperTypeToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/effectivejava/chapter5/sample2/SuperTypeToken.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +148,7 @@
       <workItem from="1685351636475" duration="1389000" />
       <workItem from="1685438979518" duration="29591000" />
       <workItem from="1686114383430" duration="7216000" />
-      <workItem from="1686293852589" duration="318000" />
+      <workItem from="1686293852589" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1685518471645</created>
@@ -207,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685802197490</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="super type token">
+      <created>1686294200755</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686294200755</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +223,7 @@
     <MESSAGE value="cs note ch1 - design pattern - singleton" />
     <MESSAGE value="cs note ch1 - design pattern - 코멘트추가" />
     <MESSAGE value="hashcode와 equals" />
-    <option name="LAST_COMMIT_MESSAGE" value="hashcode와 equals" />
+    <MESSAGE value="super type token" />
+    <option name="LAST_COMMIT_MESSAGE" value="super type token" />
   </component>
 </project>
